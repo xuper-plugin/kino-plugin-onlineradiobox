@@ -1,0 +1,142 @@
+{
+  "id": "onlineradiobox",
+  "name": "Online Radio Box",
+  "version": "0.1.0",
+  "apiVersion": 13,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Radio en vivo de Online Radio Box: miles de emisoras por país y género, con búsqueda.",
+  "author": "xuper-plugin",
+  "homepage": "https://github.com/xuper-plugin/kino-plugin-onlineradiobox",
+  "hosts": [
+    "onlineradiobox.com",
+    "*.onlineradiobox.com"
+  ],
+  "capabilities": [
+    "search",
+    "home",
+    "browse",
+    "resolve",
+    "channels"
+  ],
+  "liveStreamHosts": "any",
+  "color": "#14B8A6",
+  "theme": {
+    "accent": "#14B8A6",
+    "onAccent": "#03201C",
+    "background": "#0B1213",
+    "surface": "#16221F",
+    "highlight": "#F4B860"
+  },
+  "settings": [
+    {
+      "key": "country",
+      "type": "select",
+      "label": "País de las emisoras",
+      "labelEn": "Stations' country",
+      "default": "auto",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Automático (según tu idioma)",
+          "labelEn": "Automatic (from your language)"
+        },
+        {
+          "value": "all",
+          "label": "Todo el mundo",
+          "labelEn": "Worldwide"
+        },
+        {
+          "value": "co",
+          "label": "Colombia",
+          "labelEn": "Colombia"
+        },
+        {
+          "value": "mx",
+          "label": "México",
+          "labelEn": "Mexico"
+        },
+        {
+          "value": "es",
+          "label": "España",
+          "labelEn": "Spain"
+        },
+        {
+          "value": "ar",
+          "label": "Argentina",
+          "labelEn": "Argentina"
+        },
+        {
+          "value": "cl",
+          "label": "Chile",
+          "labelEn": "Chile"
+        },
+        {
+          "value": "pe",
+          "label": "Perú",
+          "labelEn": "Peru"
+        },
+        {
+          "value": "ve",
+          "label": "Venezuela",
+          "labelEn": "Venezuela"
+        },
+        {
+          "value": "ec",
+          "label": "Ecuador",
+          "labelEn": "Ecuador"
+        },
+        {
+          "value": "bo",
+          "label": "Bolivia",
+          "labelEn": "Bolivia"
+        },
+        {
+          "value": "uy",
+          "label": "Uruguay",
+          "labelEn": "Uruguay"
+        },
+        {
+          "value": "py",
+          "label": "Paraguay",
+          "labelEn": "Paraguay"
+        },
+        {
+          "value": "gt",
+          "label": "Guatemala",
+          "labelEn": "Guatemala"
+        },
+        {
+          "value": "cr",
+          "label": "Costa Rica",
+          "labelEn": "Costa Rica"
+        },
+        {
+          "value": "pa",
+          "label": "Panamá",
+          "labelEn": "Panama"
+        },
+        {
+          "value": "do",
+          "label": "República Dominicana",
+          "labelEn": "Dominican Republic"
+        },
+        {
+          "value": "us",
+          "label": "Estados Unidos",
+          "labelEn": "United States"
+        },
+        {
+          "value": "br",
+          "label": "Brasil",
+          "labelEn": "Brazil"
+        },
+        {
+          "value": "uk",
+          "label": "Reino Unido",
+          "labelEn": "United Kingdom"
+        }
+      ]
+    }
+  ]
+}
